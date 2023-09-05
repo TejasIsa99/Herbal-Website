@@ -5,14 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khushi Herb-International</title>
+
+    <!-- Bootstrap Link -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Animated Scroll Css -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- BoxiIcons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
     <!-- Font Awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <!-- CSS File linked -->
+
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
+    <!-- CSS File linked -->
     <link rel="stylesheet" href="Home.css">
 
 </head>
@@ -28,8 +40,8 @@
         <!-- Nav List -->
         <div class="home_navbar">
             <ul>
-                <li><a href="#home" class="home_active">Home</a></li>
-                <li><a href="#">Ayurvedic Formulation</a></li>
+                <li><a href="Home.html" class="home_active">Home</a></li>
+                <li><a href="../Aayurvedic-Formulation/Aayurvedic-Formulation.html">Ayurvedic Formulation</a></li>
                 <li><a href="#">Catalogue-Single Herbal</a></li>
                 <li><a href="#">Green food catalgue</a></li>
                 <li><a href="#">Vertical <i class="fas fa-caret-down"></i></a>
@@ -76,11 +88,11 @@
             <div class="swiper-slide container1">
                 <div class="home_text">
                     <span>We are Selling Herbal Products</span>
-                    <p>Welcome to <span2> Khushi Herb International</span2>, a trailblazing marketing <br>
-                        company specializing in Herbal Products. Our home page serves <br>
-                        as an engaging introduction to our company&#39;s offerings and <br>
-                        values. We invite you to explore the world of herbal wellness, <br>
-                        where nature and nurture converge to redefine well-being.</p>
+                    <p>Welcome to <span2> Khushi Herb International</span2>, a trailblazing <br>marketing
+                        company specializing in Herbal Products.<br> Our home page serves
+                        as an engaging introduction to <br> our company&#39;s offerings and
+                        values. We invite you to explore <br> the world of herbal wellness,
+                        where nature and nurture converge <br> to redefine well-being.</p>
                     <a href="#" class="btn1">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
                 </div>
                 <img src="/Images/Home-Image/Herbal3.png" alt="">
@@ -109,10 +121,10 @@
 
     <!-- High Selling Products -->
     <section class="h_s_product" id="categories">
-        <div class="h_s_txt">
-            <h1>High Selling <br> Products</h1>
+        <div class="h_s_txt" data-aos="fade-down">
+            <h1>HIGH SELLING <br> PRODUCT</h1>
         </div>
-        <div class="right_img">
+        <div class="right_img" data-aos="fade-left" >
             <img src="/Images/High-Product-Img/Side-Img2.png" alt="">
         </div>
         <div class="h_s_container">
@@ -139,7 +151,8 @@
                 <h5>for a hassle-free service</h5>
             </div>
         </div>
-        <img src="/Images/High-Product-Img/Side-Img3.png" alt="" class="side_img">
+        <img src="/Images/High-Product-Img/Side-Img3.png" alt="" class="side_img" 
+             data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
 
     </section>
 
@@ -149,23 +162,23 @@
 
     <section class="n_product">
         <div class="text_center">
-            <h2 class="common_h2">New Products</h2>
+            <h2 class="common_h2">NEW PRODUCT</h2>
         </div>
         <div class="feature-col-par">
             <div class="containerBox">
                 <div class="feature-col">
-                    <img src="/Images/New-Prouct/Aurvedic1.png" class="img-responsive" alt="service" />
-                    <div class="product_btn">View Product</div>
+                    <img src="/Images/New-Prouct/Aurvedic1.png" class="img-responsive" alt="service" data-aos="fade-down"/>
+                    <div class="product_btn" data-aos="fade-up">View Product</div>
                 </div>
 
                 <div class="feature-col">
-                    <img src="/Images/New-Prouct/Herbal2.png" class="img-responsive" alt="service" />
-                    <div class="product_btn">View Product</div>
+                    <img src="/Images/New-Prouct/Aurvedic1.png" class="img-responsive" alt="service" data-aos="fade-down"/>
+                    <div class="product_btn" data-aos="fade-up">View Product</div>
                 </div>
 
                 <div class="feature-col">
-                    <img src="/Images/New-Prouct/Aurvedic1.png" class="img-responsive" alt="service" />
-                    <div class="product_btn">View Product</div>
+                    <img src="/Images/New-Prouct/Aurvedic1.png" class="img-responsive" alt="service" data-aos="fade-down"/>
+                    <div class="product_btn" data-aos="fade-up">View Product</div>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -175,41 +188,434 @@
     <!-- End -->
 
     <!-- Benifit's page Start -->
+
     <section class="benifits">
-        <div class="beni_header">
+        <div class="beni_header" data-aos="fade-down">
             <h1>BENEFITS OF HERB PRODUCTS</h1>
         </div>
         <div class="beni_container">
-            <img src="/Images/Benifits/Hemp_Seeds.webp" alt="" class="Seed_img">
-            
+            <img src="/Images/Benifits/Hemp_Seeds.webp" alt="" class="Seed_img" data-aos="fade-right">
+
             <div class="s_rightside1">
                 <h2>Benifits of herb </h2>
-                <p>A also known as vehicle
-                    insurance, saves you money when your car is damaged
-                    in an accident or natural calamity. It also covers
-                    your vehicle against theft and burglary. At times,
-                    you may end up hurting others or damaging property
-                    in an accident. A car insurance policy covers such
-                    third-party liabilities as well. If you own a car
-                    in India, having third party car insurance is a must
-                    for you. That’s why it’s crucial to buy and renew your
-                    policy on time to stay on the right side of the law and
-                    be covered against car damages. At an affordable premium,
-                    our reliable car insurance policy protects you against all
-                    these risks so that you can drive worry-free. Apart
-                    from comprehensive car insurance, third-party only and
-                    own-damage only car insurance policies are also available.
-                    You can choose the policy type as per your needs.
-                </p>
+                <div class="s_rightside_txt" data-aos="fade-up">
+
+                    <i class='bx bx-check-double'></i>
+                    <p>Protein from hemp seeds is more digestible than meat, whole eggs, cheese, human milk, cow’s milk
+                        or any
+                        other high protein food.</p>
+
+
+                    <i class='bx bx-check-double'></i>
+                    <p>Hemp has Edestin and Albumin, considered as “high-quality storage proteins”. They house a
+                        significant
+                        amount of all nutritious Essential Amino Acids.</p>
+
+
+                    <i class='bx bx-check-double'></i>
+                    <p>Presence of Omega 3 and Omega 6 help control many internal health processes. Ranging from
+                        increasing
+                        cell growth, regulating the immune system, and eliminating symptoms of skin disorders to keep
+                        the
+                        body healthy.</p>
+
+
+                    <i class='bx bx-check-double'></i>
+                    <p>Slowing the digestion process, it keeps the body feeling fuller, hence acts as a weight loss
+                        supplement.</p>
+
+                </div>
             </div>
         </div>
     </section>
+
+    <!-- End -->
+
+    <!-- Why Choose Us Start -->
+
+    <section class="why_choose">
+        <div class="feat bg-gray pt-5 pb-5">
+            <div class="why_choose_container">
+                <div class="section-head col-sm-12">
+                    <h4 data-aos="fade-down"><span>Why Choose</span> Us?</h4>
+                    <p>When you choose us, you'll feel the benefit of 10 years' experience of Web Development.
+                        Because we know the digital world and <br> we know that how to handle it. With working knowledge
+                        of online, SEO and social media.</p>
+                </div>
+
+                <div class="why_choose_row">
+                    <div class="why_choose_img_cont" data-aos="fade-left">
+                        <img src="/Images/Why-Choose/why-choose.jpg" alt="">
+                    </div>
+                    <div class="col-lg-4 col-sm-6" data-aos="fade-up">
+                        <div class="item"> <span class="icon feature_box_col_one"><i
+                                    class="fa fa-sitemap"></i></i></span>
+                            <h6>100% Organic</h6>
+                            <p>We use latest technology for the latest world because we know the demand of peoples.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-7" data-aos="fade-up">
+                        <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-check"></i></span>
+                            <h6>3rd Party Tested</h6>
+                            <p>We are always creative and and always lisen our costomers and we mix these two things.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-8" data-aos="fade-up">
+                        <div class="item"> <span class="icon feature_box_col_three">
+                                <i class="fa fa-certificate"></i></span>
+                            <h6>Certified Medicine</h6>
+                            <p>If our customer has any problem and any query we are always happy to help then.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-9" data-aos="fade-up">
+                        <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-capsules"></i></span>
+                            <h6>Reduce Pain</h6>
+                            <p>Everyone wants to live on top of the mountain, but all the happiness and growth </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End -->
+
+    <!-- Request for Quote (RFQ) Page -->
+
+    <section class="rfq_section">
+        <div class="wrapper" data-aos="flip-up">
+            <header>Request for Quote (RFQ) </header>
+            <div class="content">
+                <div class="quote-area">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="quote">Easily request quotes for your desired products through our structured RFQ page.
+                    </p>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="author">
+                    <span>__</span>
+                    <span class="name">Herbal Product</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="features">
+                    <ul>
+                        <li class="speech"><i class="fas fa-volume-up"></i></li>
+                        <li class="copy"><i class="fas fa-copy"></i></li>
+                        <li class="twitter"><i class="fab fa-twitter"></i></li>
+                    </ul>
+                    <button>New Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End -->
+
+    <!-- Testimonial  -->
+
+    <section class="herb_testimonial">
+        <div class="testi_container">
+            <div class="testi_colomn">
+                <div class="testi_header">
+                    <h5>Testimonial</h5>
+                </div>
+                <h1 data-aos="fade-right">Honest Review of Our Clients</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Sapiente <br> nulla minima assumenda ratione doloremque quisquam.
+                </p>
+            </div>
+            <div class="swiper2 mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card" data-aos="fade-up">
+                            <img src="/Images/Testimonial/slide1.webp" alt="" srcset="">
+                            <div class="review">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis aliquam
+                                est, ut libero doloribus</p>
+                            <h3>Satya Nadella</h3>
+                            <h4>CEO, Microsoft</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" data-aos="fade-up">
+                            <img src="/Images/Testimonial/slide3.webp" alt="" srcset="">
+                            <div class="review">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fas fa-star-half"></i></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis aliquam
+                                est, ut libero doloribus</p>
+                            <h3>Safra Catz</h3>
+                            <h4>CEO, Oracle </h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" data-aos="fade-up">
+                            <img src="/Images/Testimonial/slide2.jpg" alt="" srcset="">
+                            <div class="review">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis aliquam
+                                est, ut libero doloribus</p>
+                            <h3>Mark Zuckerberg</h3>
+                            <h4>CEO, Facebook</h4>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card" data-aos="fade-up">
+                            <img src="/Images/Testimonial/slide4.png" alt="" srcset="">
+                            <div class="review">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque reiciendis aliquam
+                                est, ut libero doloribus</p>
+                            <h3>Mark Zuckerberg</h3>
+                            <h4>CEO, Facebook</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="testi_left">
+                <img src="/Images/Testimonial/Testi1.jpg" alt="" data-aos="fade-left">
+            </div>
+        </div>
+    </section>
+
+    <!-- End -->
+
+    <!-- Footer start -->
+
+    <footer id="dk-footer" class="dk-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="dk-footer-box-info" data-aos="fade-right">
+                        <a href="index.html" class="footer-logo">
+                            <img src="/Images/Home-Image/GOLD_DROP_LOGO-no-bg.png" alt="footer_logo" class="img-fluid">
+                        </a>
+                        <p class="footer-info-text">
+                            C-106, Shree Harikrupa Complex, Above Dattaseva Patpedhi, Near Panju Stop, Naigaon
+                            (West) 401207
+                        </p>
+                        <div class="footer-social-link">
+                            <h3>Follow us :-</h3>
+                            <ul>
+                                <li>
+                                    <a href="#" data-aos="fade-down">
+                                        <i class='bx bxl-facebook'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-aos="fade-down">
+                                        <i class='bx bxl-twitter'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-aos="fade-down">
+                                        <i class='bx bxl-google-plus'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-aos="fade-down">
+                                        <i class='bx bxl-linkedin-square'></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" data-aos="fade-down">
+                                        <i class='bx bxl-instagram-alt'></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social link -->
+                    </div>
+                    <!-- End Footer info -->
+                    <div class="footer-awarad">
+                        <img src="images/icon/best.png" alt="">
+                        <p>Best Herbal Company in 2023</p>
+                    </div>
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                <div class="contact-icon">
+                                    <i class="bx bx-map" aria-hidden="true" data-aos="fade-left"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3 data-aos="fade-down">Mumbai, India</h3>
+                                    <p>Khushi Herbal</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <i class="bx bx-phone" aria-hidden="true" data-aos="fade-left"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <h3 data-aos="fade-down">9004213142</h3>
+                                    <p>Give us a call</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Contact Row -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Useful Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul data-aos="fade-up">
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                                <ul data-aos="fade-up">
+                                    <li>
+                                        <a href="#">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Faq</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Footer Widget -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Subscribe</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p> Reference site about Lorem Ipsum, giving information on its origins, as well.</p>
+                                <form action="#">
+                                    <div class="form-row" data-aos="fade-left">
+                                        <div class="col dk-footer-form">
+                                            <input type="email" class="form-control" placeholder="Email Address">
+                                            <button class="submit_btn" type="submit">
+                                                <i class='bx bx-send'></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright © 2023, ISA ERP Pvt LTD. All Right Reserved !</span>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Terms</a>
+                                </li>
+                                <li>
+                                    <a href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+        <!-- End Back to top -->
+    </footer>
 
     <!-- Swiper JS Link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <!-- Link to JS -->
     <script src="Home.js"></script>
+
+    <!-- Animated Scroll JS -->
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
 </body>
 
 </html>
