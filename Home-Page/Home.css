@@ -9,6 +9,7 @@
     --color-ofWhite: #f9f9f9;
     --color-black: #000;
     --color-black-1: #465669;
+    --color-lightblue: #1BD3FB;
 }
 
 * {
@@ -40,7 +41,7 @@
 }
 
 .nav_logo {
-    width: 100px;
+    width: 110px;
     cursor: pointer;
 }
 
@@ -133,6 +134,7 @@
 
 /*Menu End */
 
+
 /* Home Css  */
 
 section {
@@ -152,11 +154,60 @@ section {
     overflow: hidden;
 }
 
-.container1 img {
-    width: 700px;
+.slider_img1 img {
+    width: 400px;
+    position: absolute;
+    bottom: 140px;
+    right: 100px;
+}
+
+.slider_img2 img {
+    width: 500px;
+    position: absolute;
+    bottom: 120px;
+    right: 100px;
+}
+
+.slider_img3 img {
+    width: 400px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.slider_img4 img {
+    width: 400px;
+    position: absolute;
+    bottom: 140px;
+    right: 100px;
+}
+
+.slider_img5 img {
+    width: 500px;
+    position: absolute;
+    bottom: 110px;
+    right: 100px;
+}
+
+.slider_img6 img {
+    width: 500px;
     position: absolute;
     bottom: 70px;
-    right: 200px;
+    right: 100px;
+}
+
+.slider_img7 img {
+    width: 500px;
+    position: absolute;
+    bottom: 140px;
+    right: 100px;
+}
+
+.slider_img8 img {
+    width: 500px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
 }
 
 .home_text {
@@ -166,33 +217,33 @@ section {
 }
 
 .home_text span {
-    font-size: 25px;
-    margin-left: -2%;
+    font-size: 36px;
+    margin-left: -10%;
     margin-top: 0%;
-    font-weight: 600;
+    font-weight: 900;
     text-transform: uppercase;
     color: var(--color-green);
 }
 
 .home_text span2 {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 600;
     color: var(--color-green);
 }
 
 
 .home_text p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 1rem;
-    margin-top: 16%;
+    margin-top: 14%;
 }
 
 .btn1 {
-    padding: 0.6rem 1rem;
+    padding: 0.8rem 1.2rem;
     background: var(--color-primary);
     color: var(--color-black);
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 14%;
     border-radius: 5rem;
     display: flex;
@@ -200,6 +251,7 @@ section {
     justify-content: space-between;
     column-gap: 0.5rem;
     max-width: 160px;
+    margin-left: -10%;
 }
 
 .btn1 .bx {
@@ -213,7 +265,7 @@ section {
 
 .btn1:hover {
     background: var(--color-secondary);
-    transition: 0.2s ease;
+    transition: 0.1s ease;
 }
 
 .swiper-button-next {
@@ -473,6 +525,8 @@ h2:hover {
     margin-bottom: -1rem;
 }
 
+/* End */
+
 
 /* Why Choose Us Css */
 
@@ -508,11 +562,6 @@ ul {
     padding: 0;
     list-style: none;
 }
-
-/* img {
-    max-width: 100%;
-    height: auto;
-} */
 
 span,
 a,
@@ -781,16 +830,98 @@ p.awesome_line {
 
 /* End */
 
+
+/* Mission info */
+
+.mission_info {
+    min-height: 80vh;
+    background: var(--color-ofWhite);
+}
+
+.mission_container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.mission_container img {
+    height: 340px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 29%;
+}
+
+.mission_rightside {
+    display: flow-root;
+    margin-left: 8%;
+    margin-top: 1%;
+}
+
+.mission_rightside h4 {
+    font-size: 15px;
+    margin: 5%;
+}
+
+.mission_rightside h1 {
+    color: var(--color-green);
+}
+
+.mission_rightside i {
+    font-size: 20px;
+    margin-left: -3%;
+    color: var(--color-lightblue);
+
+}
+
+/* Vision Info */
+.vision_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: var(--color-ofWhite);
+}
+
+.vision_container img {
+    height: 340px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: -18%;
+}
+
+.vision_rightside {
+    display: flow-root;
+    margin-left: 22%;
+    margin-top: -12%;
+}
+
+.vision_rightside h4 {
+    font-size: 15px;
+    margin: 5%;
+}
+
+.vision_rightside h1 {
+    color: var(--color-green);
+    margin-left: -1%;
+}
+
+.vision_rightside i {
+    font-size: 20px;
+    margin-left: -4%;
+    color: var(--color-lightblue);
+}
+
+/* End */
+
+
 /* Request for Quote (RFQ) Css */
 
 .rfq_section {
-    background: var(--color-ofWhite);
+    background: var(--color-white);
     min-height: 70vh;
 }
 
 .wrapper {
     width: 1180px;
-    background: #fff;
+    background: #fffefe;
     border-radius: 15px;
     margin-left: 10%;
     padding: 30px 30px 25px;
@@ -909,10 +1040,14 @@ ul .speech.active {
     pointer-events: none;
 }
 
+
+/* End */
+
+
 /* Testimonial Css */
 
 .herb_testimonial {
-    background: var(--color-white);
+    background: var(--color-ofWhite);
     min-height: 100vh;
 }
 
@@ -1422,3 +1557,5 @@ ul .speech.active {
     background: #FA6742;
     border-color: #FA6742;
 }
+
+/* End */
