@@ -9,6 +9,7 @@
     --color-ofWhite: #f9f9f9;
     --color-black: #000;
     --color-black-1: #465669;
+    --color-lightblue: #1BD3FB;
 }
 
 * {
@@ -59,15 +60,9 @@
     border-radius: 50%;
 }
 
-.home_profile li {
-    font-size: 16px;
+.home_profile span {
+    font-size: 13px;
     font-weight: 500;
-    color: var(--color-black);
-}
-
-.home_profile a {
-    text-decoration: none;
-    color: var(--color-black);
 }
 
 .home_navbar {
@@ -78,14 +73,14 @@
 
 .home_navbar a {
     font-size: 1rem;
+    text-decoration: none;
     font-weight: 500;
     color: var(--color-black);
     padding: 0.5rem;
-    text-decoration: none;
 }
 
 .home_navbar a:hover,
-.herbal_active {
+.single_herb_active {
     background: var(--color-primary);
     border-radius: 5rem;
     color: var(--color-white);
@@ -141,72 +136,85 @@
 /*Menu End */
 
 
-
 /*Aayurvedic Home Css  */
 
 .aayu_home {
     min-height: 100vh;
 }
 
-.aayu_container {
+.single_herb_container {
     position: relative;
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/Images2/Aayurvedic-Home/bg2-img.avif);
+    background: url(/Images3/Single-Herbal_imgs/Single-herb-bg-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 
-.aayu_img1 img {
-    width: 600px;
+.single_herb_img1 img {
+    width: 200px;
     position: absolute;
-    bottom: 50px;
-    margin-left: 6%;
+    bottom: -10px;
+    margin-left: -1%;
 }
 
-.aayu_img2 img {
-    height: 160px;
-    margin-top: -205%;
+.single_herb_img2 img {
+    width: 650px;
+    margin-top: 16%;
+    margin-left: -12%;
 }
 
-.aayu_home_text {
-    margin-left: 60%;
+.upper_img img {
+    width: 200px;
+    position: absolute;
+    bottom: 430px;
+    margin-left: 87%;
+}
+
+.single_herb_home_text {
+    margin-left: 24%;
     margin-bottom: -75px;
 }
 
-.aayu_home_text a {
+.single_herb_home_text a {
     text-decoration: none;
 }
 
-.aayu_home_text h1 {
+.single_herb_home_text h1 {
     font-size: 40px;
     margin-left: -45%;
     margin-top: 0%;
     font-weight: 900;
 }
 
-.aayu_home_text h2 {
-    /* font-size: 40px; */
+.single_herb_home_text h2 {
+    color: var(--color-green);
+    font-size: 65px;
+    font-weight: bold;
+    margin-left: -5%;
+    margin-top: 0%;
+}
+
+.single_herb_home_text h3 {
     margin-left: -45%;
     margin-top: 0%;
 }
 
-.aayu_home_text span {
-    font-size: 40px;
-    font-weight: 900;
+.single_herb_home_text i {
+    font-size: 20px;
     color: var(--color-green);
 }
 
 
-.aayu_home_text p {
-    font-size: 20px;
+.single_herb_home_text p {
+    font-size: 16px;
     font-weight: 400;
-    margin-bottom: 1rem;
-    margin-top: 14%;
+    margin-bottom: 0.8rem;
+    margin-top: 2%;
     margin-left: -45%;
 }
 
@@ -246,30 +254,30 @@
 
 /* -------- New Type Boxes 1 Blood Press Tabs CSS --------- */
 
-.bp_container {
+.aloe_container {
     min-height: 100vh;
     background: var(--color-white);
 }
 
-.text_center {
+.aloe_center {
     text-align: center;
     margin: 40px;
 }
 
-.text_center i {
+.aloe_center i {
     font-size: 50px;
     margin: 10px;
     color: var(--color-green);
 }
 
-.common_h2 {
+.aloe_h2 {
     color: var(--color-green);
     font-size: 38px;
     font-weight: bold;
     line-height: 38px;
 }
 
-.common_h5 {
+.aloe_h5 {
     color: var(--color-black);
     font-size: 24px;
     font-weight: 500;
@@ -277,13 +285,13 @@
     margin-bottom: 7px;
 }
 
-.aayu_containerBox {
+.aloe_containerBox {
     display: grid;
     grid-template-columns: auto;
     margin: 5%;
 }
 
-.feature-col {
+.aloe-col {
     width: 100%;
     height: 1200px;
     padding: 30px;
@@ -292,14 +300,14 @@
     transition: all 0.5s ease;
 }
 
-.aayu_containerBox2 {
+.aloe_containerBox2 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.feature-col2 {
+.aloe-col2 {
     /* width: 65%; */
     padding: 30px;
     margin-left: 17%;
@@ -309,37 +317,37 @@
     transition: all 0.5s ease;
 }
 
-.bp_img1 img {
+.aloe_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.bp_img2 img {
+.aloe_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.bp_img3 img {
+.aloe_img3 img {
     height: 200px;
     margin-left: 16%;
 }
 
-.bp_img4 img {
+.aloe_img4 img {
     height: 200px;
     margin-left: 13%;
 }
 
-.feature-col2 h4 {
+.aloe-col2 h4 {
     font-size: 20px;
     margin-left: 15%;
 }
 
-.feature-col2 p {
+.aloe-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.aayu_btn button {
+.aloe_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -349,12 +357,12 @@
     cursor: pointer;
 }
 
-.aayu_btn button:hover {
+.aloe_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading_txt1 h1 {
+.aloe_txt1 h1 {
     /* font-size: 24px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
@@ -362,26 +370,26 @@
     color: var(--color-green);
 }
 
-.heading_txt1 h1::after {
+.aloe_txt1 h1::after {
     content: '';
-    width: 200px;
+    width: 130px;
     height: 3px;
     background: var(--color-green);
     position: absolute;
     margin-top: 4%;
-    margin-left: -14.5%;
+    margin-left: -9.5%;
 }
 
 /* 2nd box */
 
-.aayu_containerBox3 {
+.amla_containerBox3 {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.feature-box-col1 {
+.amla-box-col1 {
     width: 110%;
     padding: 30px;
     margin-left: 17%;
@@ -391,7 +399,7 @@
     transition: all 0.5s ease;
 }
 
-.feature-box-col2 {
+.amla-box-col2 {
     width: 110%;
     padding: 30px;
     margin-left: 43%;
@@ -401,7 +409,7 @@
     transition: all 0.5s ease;
 }
 
-.feature-box-col3 {
+.amla-box-col3 {
     width: 75%;
     padding: 30px;
     margin-left: 43%;
@@ -411,7 +419,7 @@
     transition: all 0.5s ease;
 }
 
-.feature-box-col4 {
+.amla-box-col4 {
     width: 75%;
     padding: 30px;
     margin-left: 26%;
@@ -421,71 +429,71 @@
     transition: all 0.5s ease;
 }
 
-.img-responsive1 img {
+.amla-responsive1 img {
     height: 200px;
     margin-left: 20%;
     margin-top: 15%;
 }
 
-.img-responsive2 img {
+.amla-responsive2 img {
     height: 200px;
     margin-left: 30%;
     margin-top: 15%;
 }
 
-.img-responsive3 img {
+.amla-responsive3 img {
     height: 200px;
     margin-left: 22%;
     margin-top: 4%;
 }
 
-.img-responsive4 img {
+.amla-responsive4 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.feature-box-col1 h4 {
+.amla-box-col1 h4 {
     font-size: 20px;
     margin-left: 17%;
 }
 
-.feature-box-col2 h4 {
+.amla-box-col2 h4 {
     font-size: 20px;
     margin-left: 20%;
 }
 
-.feature-box-col3 h4 {
+.amla-box-col3 h4 {
     font-size: 20px;
     /* margin-left: 24%; */
     text-align: center;
 }
 
-.feature-box-col4 h4 {
+.amla-box-col4 h4 {
     font-size: 20px;
     margin-left: 20%;
 }
 
-.feature-box-col1 p {
+.amla-box-col1 p {
     font-size: 16px;
     text-align: center;
 }
 
-.feature-box-col2 p {
+.amla-box-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.feature-box-col3 p {
+.amla-box-col3 p {
     font-size: 16px;
     text-align: center;
 }
 
-.feature-box-col4 p {
+.amla-box-col4 p {
     font-size: 16px;
     text-align: center;
 }
 
-.aayu_btn button {
+.amla_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -495,755 +503,40 @@
     cursor: pointer;
 }
 
-.aayu_btn button:hover {
+.amla_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-/* End */
-
-
-
-/* ///////////////////////// New Type Boxes 2 digetion Tabs//////////////////////// */
-
-.digetion_container {
-    min-height: 100vh;
-}
-
-.digetion_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.side_leaf_img {
-    margin: -72px;
-}
-
-.side_leaf_img img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-}
-
-.digetion-col {
-    width: 100%;
-    height: 1100px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.digetion_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.digetion-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.digetion_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.digetion_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.digetion_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.digetion_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.digetion-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.digetion-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.digetion_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.digetion_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt2 h1 {
-    /* font-size: 20px; */
+.amla_txt1 h1 {
+    /* font-size: 24px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
     text-align: center;
     color: var(--color-green);
 }
 
-.heading_txt2 h1::after {
+.amla_txt1 h1::after {
     content: '';
-    width: 200px;
+    width: 80px;
     height: 3px;
     background: var(--color-green);
     position: absolute;
     margin-top: 4%;
-    margin-left: -14.5%;
-}
-
-/* 2nd box */
-
-.digetion_containerBox3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.digetion-box-col1 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 45%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.digetion-box-col2 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 43%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.digetion-box-col3 {
-    width: 50%;
-    padding: 30px;
-    margin-left: 30%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-
-.digetion2_img1 img {
-    height: 200px;
-    margin-left: 20%;
-    margin-top: 15%;
-}
-
-.digetion2_img2 img {
-    height: 200px;
-    margin-left: 18%;
-    margin-top: 12%;
-}
-
-.digetion2_img3 img {
-    height: 200px;
-    margin-left: 15%;
-    margin-top: 4%;
-}
-
-.digetion-box-col1 h4 {
-    font-size: 20px;
-    margin-left: 17%;
-}
-
-.digetion-box-col2 h4 {
-    font-size: 20px;
-    margin-left: 20%;
-}
-
-.digetion-box-col3 h4 {
-    font-size: 20px;
-    /* margin-left: 24%; */
-    text-align: center;
-}
-
-
-.digetion-box-col1 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.digetion-box-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.digetion-box-col3 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.digetion_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.digetion_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-/* End */
-
-/* Counter Section start */
-
-.counter_sec {
-    height: 40vh;
-    background: var(--color-primary);
-    /* text-align: center; */
-    transition: all 0.7s linear;
-}
-
-.counter_container {
-    display: grid;
-    grid-template-columns: auto auto;
-    text-align: center;
-    margin-top: 10%;
-}
-
-.counter_img img {
-    height: 550px;
-    width: 600px;
-    margin-top: -12%;
-}
-
-.main_txt_btn button {
-    height: 42px;
-    width: 160px;
-    font-weight: bold;
-    border-radius: 12px;
-    cursor: pointer;
-    margin-top: 2%;
-    /* color: var(--color-white); */
-    background-color: var(--color-primary);
-}
-
-.main_txt_btn button:hover {
-    background-color: var(--color-white);
-}
-
-.counter_header {
-    justify-content: center;
-    align-items: center;
-}
-
-.counter_p {
-    font-size: 10px;
-}
-
-.counter_num {
-    font-size: 30px;
-    margin: 8%;
-}
-
-.counter_container p {
-    font-size: 20px;
-    margin-top: -4%;
+    margin-left: -5.8%;
 }
 
 /* End */
 
 
-/* ///////////////////////// New Type Boxes 3 Eye //////////////////////// */
 
-.eye_container2 {
-    margin-top: 13%;
+/* ///////////////////////// New Type Boxes 2 Ashwagandha //////////////////////// */
+
+.ashwagandha_container2 {
     min-height: 100vh;
 }
 
-.eye_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.side_leaf_img2 {
-    /* margin: -72px; */
-    align-items: flex-end;
-    text-align: end;
-}
-
-.side_leaf_img2 img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-}
-
-.eye-col {
-    width: 100%;
-    height: 650px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.eye_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.eye-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.eye_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.eye_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.eye_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.eye_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.eye-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.eye-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.eye_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.eye_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt3 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt3 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -14.5%;
-}
-
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 4 Gout //////////////////////// */
-
-.gout_container2 {
-    margin-top: -4%;
-    min-height: 100vh;
-}
-
-.gout_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.side_leaf_img2 {
-    /* margin: -72px; */
-    align-items: flex-end;
-    text-align: end;
-}
-
-.side_leaf_img2 img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-}
-
-.gout-col {
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.gout_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.gout-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.gout_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.gout_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.gout_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.gout_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.gout-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.gout-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.gout_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.gout_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt4 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt4 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -15.5%;
-}
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 5 Hair Care Product //////////////////////// */
-
-.hair_container2 {
-    margin-top: -6%;
-    min-height: 100vh;
-}
-
-.hair_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.hair-col {
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 2px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.hair_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.hair-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.hair_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.hair_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.hair_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.hair_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.hair-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.hair-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.hair_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.hair_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt5 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt5 h1::after {
-    content: '';
-    width: 220px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -18%;
-}
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 6 Heart Care Tab//////////////////////// */
-
-.heart_container2 {
-    margin-top: -6%;
-    min-height: 100vh;
-}
-
-.heart_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-/* .side_leaf_img2 {
-    align-items: flex-end;
-    text-align: end;
-}
-.side_leaf_img2 img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-} */
-
-.heart-col {
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.heart_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.heart-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.heart_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.heart_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.heart_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.heart_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.heart-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.heart-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.heart_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.heart_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt6 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt6 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -15.8%;
-}
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 7 Emmunity Support //////////////////////// */
-
-.emmunity_container2 {
-    margin-top: -10%;
-    min-height: 100vh;
-}
-
-.emmunity_containerBox {
+.ashwagandha_containerBox {
     display: grid;
     grid-template-columns: auto;
     margin: 5%;
@@ -1260,112 +553,7 @@
     margin-left: -7%;
 } */
 
-.emmunity-col {
-    width: 100%;
-    height: 650px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.emmunity_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.emmunity-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.emmunity_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.emmunity_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.emmunity_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.emmunity_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.emmunity-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.emmunity-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.emmunity_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.emmunity_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt7 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt7 h1::after {
-    content: '';
-    width: 250px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -19%;
-}
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 8 Joint Care //////////////////////// */
-
-.joint_container2 {
-    margin-top: -6%;
-    min-height: 100vh;
-}
-
-.joint_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.joint-col {
+.ashwagandha-col {
     width: 100%;
     height: 600px;
     padding: 30px;
@@ -1374,14 +562,14 @@
     transition: all 0.5s ease;
 }
 
-.joint_containerBox2 {
+.ashwagandha_containerBox2 {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.joint-col2 {
+.ashwagandha-col2 {
     padding: 30px;
     margin-left: 17%;
     border-radius: 10px;
@@ -1390,37 +578,37 @@
     transition: all 0.5s ease;
 }
 
-.joint_img1 img {
+.ashwagandha_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.joint_img2 img {
+.ashwagandha_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.joint_img3 img {
+.ashwagandha_img3 img {
     height: 200px;
     margin-left: 18%;
 }
 
-.joint_img4 img {
+.ashwagandha_img4 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.joint-col2 h4 {
+.ashwagandha-col2 h4 {
     font-size: 20px;
     margin-left: 11%;
 }
 
-.joint-col2 p {
+.ashwagandha-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.joint_btn button {
+.ashwagandha_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -1430,12 +618,12 @@
     cursor: pointer;
 }
 
-.joint_btn button:hover {
+.ashwagandha_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading_txt8 h1 {
+.ashwagandha_txt h1 {
     /* font-size: 20px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
@@ -1443,33 +631,136 @@
     color: var(--color-green);
 }
 
-.heading_txt8 h1::after {
+.ashwagandha_txt h1::after {
     content: '';
-    width: 220px;
+    width: 200px;
     height: 3px;
     background: var(--color-green);
     position: absolute;
     margin-top: 4%;
-    margin-left: -18%;
+    margin-left: -14.5%;
 }
 
 /* End */
 
 
-/* ///////////////////////// New Type Boxes 9 Kidney And Liver //////////////////////// */
+/* ///////////////////////// New Type Boxes 3 Aarjuna //////////////////////// */
 
-.kidney_container2 {
+.arjuna_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.arjuna_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.arjuna-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.arjuna_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.arjuna-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.arjuna_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.arjuna_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.arjuna_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.arjuna_img4 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.arjuna-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.arjuna-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.arjuna_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.arjuna_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.arjuna_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.arjuna_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+/* ///////////////////////// New Type Boxes 4 Kidney And Liver //////////////////////// */
+
+.brahmi_container2 {
     margin-top: -6%;
     min-height: 100vh;
 }
 
-.kidney_containerBox {
+.brahmi_containerBox {
     display: grid;
     grid-template-columns: auto auto;
     margin: 5%;
 }
 
-.kidney-col {
+.brahmi-col {
     width: 100%;
     height: 600px;
     padding: 30px;
@@ -1479,14 +770,14 @@
     transition: all 0.5s ease;
 }
 
-.kidney_containerBox2 {
+.brahmi_containerBox2 {
     display: grid;
     grid-template-columns: auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.kidney-col2 {
+.brahmi-col2 {
     /* width: 65%; */
     padding: 30px;
     margin-left: 17%;
@@ -1496,27 +787,27 @@
     transition: all 0.5s ease;
 }
 
-.kidney_img1 img {
+.brahmi_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.kidney_img2 img {
+.brahmi_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.kidney-col2 h4 {
+.brahmi-col2 h4 {
     font-size: 20px;
     margin-left: 11%;
 }
 
-.kidney-col2 p {
+.brahmi-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.kidney_btn button {
+.brahmi_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -1526,12 +817,12 @@
     cursor: pointer;
 }
 
-.kidney_btn button:hover {
+.brahmi_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading1_txt9 h1 {
+.brahmi_txt h1 {
     /* font-size: 20px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
@@ -1539,7 +830,7 @@
     color: var(--color-green);
 }
 
-.heading1_txt9 h1::after {
+.brahmi_txt h1::after {
     content: '';
     width: 200px;
     height: 3px;
@@ -1551,7 +842,7 @@
 
 /* 2 */
 
-.liver-col {
+.garcinia-col {
     width: 100%;
     height: 600px;
     padding: 30px;
@@ -1561,14 +852,14 @@
     transition: all 0.5s ease;
 }
 
-.liver_containerBox2 {
+.garcinia_containerBox2 {
     display: grid;
     grid-template-columns: auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.liver-col2 {
+.garcinia-col2 {
     /* width: 65%; */
     padding: 30px;
     margin-left: 17%;
@@ -1578,27 +869,27 @@
     transition: all 0.5s ease;
 }
 
-.liver_img1 img {
+.garcinia_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.liver_img2 img {
+.garcinia_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.liver-col2 h4 {
+.garcinia-col2 h4 {
     font-size: 20px;
     margin-left: 11%;
 }
 
-.liver-col2 p {
+.garcinia-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.liver_btn button {
+.garcinia_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -1608,12 +899,12 @@
     cursor: pointer;
 }
 
-.liver_btn button:hover {
+.garcinia_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading2_txt9 h1 {
+.garcinia_txt h1 {
     /* font-size: 20px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
@@ -1621,7 +912,7 @@
     color: var(--color-green);
 }
 
-.heading2_txt9 h1::after {
+.garcinia_txt h1::after {
     content: '';
     width: 200px;
     height: 3px;
@@ -1634,48 +925,35 @@
 /* End */
 
 
-/* ///////////////////////// New Type Boxes 7 Emmunity Support //////////////////////// */
+/* ///////////////////////// New Type Boxes 5 Haritaki //////////////////////// */
 
-.memory_container2 {
-    margin-top: -10%;
+.haritaki_container2 {
     min-height: 100vh;
 }
 
-.memory_containerBox {
+.haritaki_containerBox {
     display: grid;
     grid-template-columns: auto;
     margin: 5%;
 }
 
-/* .side_leaf_img2 {
-    align-items: flex-end;
-    text-align: end;
-}
-
-.side_leaf_img2 img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-} */
-
-.memory-col {
+.haritaki-col {
     width: 100%;
-    height: 650px;
+    height: 600px;
     padding: 30px;
     background-color: var(--color-ofWhite);
     box-shadow: 0px 0px 0px 0.5px var(--color-black);
     transition: all 0.5s ease;
 }
 
-.memory_containerBox2 {
+.haritaki_containerBox2 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.memory-col2 {
-    /* width: 65%; */
+.haritaki-col2 {
     padding: 30px;
     margin-left: 17%;
     border-radius: 10px;
@@ -1684,37 +962,27 @@
     transition: all 0.5s ease;
 }
 
-.memory_img1 img {
+.haritaki_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.memory_img2 img {
+.haritaki_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.memory_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.memory_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.memory-col2 h4 {
+.haritaki-col2 h4 {
     font-size: 20px;
     margin-left: 11%;
 }
 
-.memory-col2 p {
+.haritaki-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.memory_btn button {
+.haritaki_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -1724,12 +992,12 @@
     cursor: pointer;
 }
 
-.memory_btn button:hover {
+.haritaki_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading_txt10 h1 {
+.haritaki_txt h1 {
     /* font-size: 20px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
@@ -1737,9 +1005,1366 @@
     color: var(--color-green);
 }
 
-.heading_txt10 h1::after {
+.haritaki_txt h1::after {
     content: '';
-    width: 250px;
+    width: 200px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -14.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 6 Jambu //////////////////////// */
+
+.jambu_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.jambu_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.jambu-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.jambu_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.jambu-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.jambu_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.jambu_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.jambu_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.jambu-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.jambu-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.jambu_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jambu_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.jambu_txt h1 {
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.jambu_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 4 Karela and Methi //////////////////////// */
+
+.karela_container2 {
+    margin-top: -6%;
+    min-height: 100vh;
+}
+
+.karela_containerBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+}
+
+.karela-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    margin-left: -3%;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.karela_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.karela-col2 {
+    /* width: 65%; */
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.karela_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.karela_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.karela-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.karela-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.karela_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.karela_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.karela_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.karela_txt h1::after {
+    content: '';
+    width: 200px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -15.8%;
+}
+
+/* 2 */
+
+.methi-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    margin-left: 3%;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.methi_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.methi-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.methi_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.methi_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.methi-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.methi-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.methi_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.methi_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.methi_txt h1 {
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.methi_txt h1::after {
+    content: '';
+    width: 200px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -15.8%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 8 Neem //////////////////////// */
+
+.neem_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.neem_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.neem-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.neem_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.neem-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.neem_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.neem_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.neem_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.neem-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.neem-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.neem_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.neem_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.neem_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.neem_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+/* ///////////////////////// New Type Boxes 9 Senna //////////////////////// */
+
+.seena_container2 {
+    /* margin-top: 13%; */
+    min-height: 100vh;
+}
+
+.seena_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.side_leaf_img2 {
+    /* margin: -72px; */
+    align-items: flex-end;
+    text-align: end;
+}
+
+.side_leaf_img2 img {
+    height: 250px;
+    margin-top: -5%;
+    margin-left: -7%;
+}
+
+.seena-col {
+    width: 100%;
+    height: 650px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.seena_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.seena-col2 {
+    /* width: 65%; */
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.seena_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.seena_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.seena_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.seena_img4 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.seena-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.seena-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.seena_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.seena_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.seena_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.seena_txt h1::after {
+    content: '';
+    width: 200px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -14.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 10 Shankhpushpi //////////////////////// */
+
+.shankhpushpi_container2 {
+    min-height: 100vh;
+}
+
+.shankhpushpi_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.shankhpushpi-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.shankhpushpi_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.shankhpushpi-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.shankhpushpi_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.shankhpushpi_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.shankhpushpi-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.shankhpushpi-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.shankhpushpi_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shankhpushpi_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.shankhpushpi_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.shankhpushpi_txt h1::after {
+    content: '';
+    width: 200px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -14.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 11 Shatavari //////////////////////// */
+
+.shatavari_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.shatavari_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.shatavari-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.shatavari_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.shatavari-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.shatavari_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.shatavari_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.shatavari_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.shatavari-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.shatavari-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.shatavari_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shatavari_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.shatavari_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.shatavari_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 12 Tulsi //////////////////////// */
+
+.tulsi_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.tulsi_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.tulsi-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.tulsi_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.tulsi-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.tulsi_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.tulsi_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.tulsi_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.tulsi-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.tulsi-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.tulsi_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tulsi_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.tulsi_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.tulsi_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+/* ///////////////////////// New Type Boxes 13 Turmeric //////////////////////// */
+
+.turmeric_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.turmeric_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.turmeric-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.turmeric_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.turmeric-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.turmeric_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.turmeric_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.turmeric_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.turmeric-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.turmeric-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.turmeric_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.turmeric_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.turmeric_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.turmeric_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 14 Safed Musli //////////////////////// */
+
+.safed_musli_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.safed_musli_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.safed_musli-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.safed_musli_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.safed_musli-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.safed_musli_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.safed_musli_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.safed_musli_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.safed_musli-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.safed_musli-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.safed_musli_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.safed_musli_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.safed_musli_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.safed_musli_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 15 Shilajit //////////////////////// */
+
+.shilajit_container2 {
+    margin-top: -8%;
+    min-height: 100vh;
+}
+
+.shilajit_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.shilajit-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.shilajit_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.shilajit-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.shilajit_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.shilajit_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.shilajit_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.shilajit-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.shilajit-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.shilajit_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shilajit_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.shilajit_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.shilajit_txt h1::after {
+    content: '';
+    width: 100px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -7.5%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 16 Punarnava and Gokshur //////////////////////// */
+
+.punarnava_container2 {
+    margin-top: -6%;
+    min-height: 100vh;
+}
+
+.punarnava_containerBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+}
+
+.punarnava-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    margin-left: -3%;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.punarnava_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.punarnava-col2 {
+    /* width: 65%; */
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.punarnava_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.punarnava_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.punarnava-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.punarnava-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.punarnava_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.punarnava_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.punarnava_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.punarnava_txt h1::after {
+    content: '';
+    width: 200px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -15.8%;
+}
+
+/* 2 */
+
+.gokshur-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    margin-left: 3%;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 0.5px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.gokshur_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.gokshur-col2 {
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.gokshur_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.gokshur_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.gokshur-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.gokshur-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.gokshur_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gokshur_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.gokshur_txt h1 {
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.gokshur_txt h1::after {
+    content: '';
+    width: 200px;
+    height: 3px;
+    background: var(--color-green);
+    position: absolute;
+    margin-top: 4%;
+    margin-left: -15.8%;
+}
+
+/* End */
+
+
+/* ///////////////////////// New Type Boxes 17 Triphala //////////////////////// */
+
+.triphala_container2 {
+    margin-top: -6%;
+    min-height: 100vh;
+}
+
+.triphala_containerBox {
+    display: grid;
+    grid-template-columns: auto;
+    margin: 5%;
+}
+
+.triphala-col {
+    width: 100%;
+    height: 600px;
+    padding: 30px;
+    background-color: var(--color-ofWhite);
+    box-shadow: 0px 0px 0px 2px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.triphala_containerBox2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 5%;
+    margin-left: 1%;
+}
+
+.triphala-col2 {
+    /* width: 65%; */
+    padding: 30px;
+    margin-left: 17%;
+    border-radius: 10px;
+    background-color: #FFF;
+    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
+    transition: all 0.5s ease;
+}
+
+.triphala_img1 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.triphala_img2 img {
+    height: 200px;
+    margin-left: 30%;
+}
+
+.triphala_img3 img {
+    height: 200px;
+    margin-left: 18%;
+}
+
+.triphala_img4 img {
+    height: 200px;
+    margin-left: 20%;
+}
+
+.triphala-col2 h4 {
+    font-size: 20px;
+    margin-left: 11%;
+}
+
+.triphala-col2 p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.triphala_btn button {
+    margin-left: 16%;
+    width: 140px;
+    height: 40px;
+    background: var(--color-green);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.triphala_btn button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+}
+
+.triphala_txt h1 {
+    /* font-size: 20px; */
+    font-family: 'Cabin', 'SemiBold 600';
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-green);
+}
+
+.triphala_txt h1::after {
+    content: '';
+    width: 220px;
     height: 3px;
     background: var(--color-green);
     position: absolute;
@@ -1750,46 +2375,36 @@
 /* End */
 
 
-/* ///////////////////////// New Type Boxes 11  Men's Health //////////////////////// */
+/* ///////////////////////// New Type Boxes 18 Guggul //////////////////////// */
 
-.mens_container {
+.guggul_container2 {
+    margin-top: -8%;
     min-height: 100vh;
 }
 
-.mens_containerBox {
+.guggul_containerBox {
     display: grid;
     grid-template-columns: auto;
     margin: 5%;
 }
 
-.side_leaf_img {
-    margin: -72px;
-}
-
-.side_leaf_img img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-}
-
-.mens-col {
+.guggul-col {
     width: 100%;
-    height: 1100px;
+    height: 600px;
     padding: 30px;
     background-color: var(--color-ofWhite);
     box-shadow: 0px 0px 0px 0.5px var(--color-black);
     transition: all 0.5s ease;
 }
 
-.mens_containerBox2 {
+.guggul_containerBox2 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.mens-col2 {
-    /* width: 65%; */
+.guggul-col2 {
     padding: 30px;
     margin-left: 17%;
     border-radius: 10px;
@@ -1798,37 +2413,32 @@
     transition: all 0.5s ease;
 }
 
-.mens_img1 img {
+.guggul_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.mens_img2 img {
+.guggul_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.mens_img3 img {
+.guggul_img3 img {
     height: 200px;
     margin-left: 18%;
 }
 
-.mens_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.mens-col2 h4 {
+.guggul-col2 h4 {
     font-size: 20px;
     margin-left: 11%;
 }
 
-.mens-col2 p {
+.guggul-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.mens_btn button {
+.guggul_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -1838,12 +2448,12 @@
     cursor: pointer;
 }
 
-.mens_btn button:hover {
+.guggul_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading_txt11 h1 {
+.guggul_txt h1 {
     /* font-size: 20px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
@@ -1851,407 +2461,49 @@
     color: var(--color-green);
 }
 
-.heading_txt11 h1::after {
+.guggul_txt h1::after {
     content: '';
-    width: 200px;
+    width: 100px;
     height: 3px;
     background: var(--color-green);
     position: absolute;
     margin-top: 4%;
-    margin-left: -14.5%;
-}
-
-/* 2nd box */
-
-.mens_containerBox3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.mens-box-col1 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 45%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.mens-box-col2 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 43%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.mens-box-col3 {
-    width: 50%;
-    padding: 30px;
-    margin-left: 30%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-
-.mens2_img1 img {
-    height: 200px;
-    margin-left: 20%;
-    margin-top: 15%;
-}
-
-.mens2_img2 img {
-    height: 200px;
-    margin-left: 18%;
-    margin-top: 12%;
-}
-
-.mens2_img3 img {
-    height: 200px;
-    margin-left: 15%;
-    margin-top: 4%;
-}
-
-.mens-box-col1 h4 {
-    font-size: 20px;
-    margin-left: 17%;
-}
-
-.mens-box-col2 h4 {
-    font-size: 20px;
-    margin-left: 20%;
-}
-
-.mens-box-col3 h4 {
-    font-size: 20px;
-    /* margin-left: 24%; */
-    text-align: center;
-}
-
-
-.mens-box-col1 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.mens-box-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.mens-box-col3 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.mens_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.mens_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
+    margin-left: -7.5%;
 }
 
 /* End */
 
+/* ///////////////////////// New Type Boxes 19 Moringa and Giloy (Guduchi) //////////////////////// */
 
-/* ///////////////////////// New Type Boxes 12 Migraine Support, Piles Care,  Prostate Care//////////////////////// */
-
-.migraine_container2 {
+.moringa_container2 {
+    margin-top: -6%;
     min-height: 100vh;
 }
 
-.migraine_containerBox {
+.moringa_containerBox {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     margin: 5%;
 }
 
-.migraine-col {
+.moringa-col {
     width: 100%;
     height: 600px;
     padding: 30px;
-    margin-left: -5%;
+    margin-left: -3%;
     background-color: var(--color-ofWhite);
     box-shadow: 0px 0px 0px 0.5px var(--color-black);
     transition: all 0.5s ease;
 }
 
-.migraine_containerBox2 {
+.moringa_containerBox2 {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.migraine-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    margin-top: 12%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.migraine_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-
-.migraine-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.migraine-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.migraine_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.migraine_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading1_txt12 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading1_txt12 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -16.2%;
-}
-
-.piles-col {
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.piles_containerBox2 {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.piles-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    margin-top: 12%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.piles_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-
-.piles-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.piles-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.piles_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.piles_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading2_txt12 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading2_txt12 h1::after {
-    content: '';
-    width: 150px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -10.5%;
-}
-
-.prostate-col {
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-    margin-left: 5%;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.prostate_containerBox2 {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.prostate-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    margin-top: 12%;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.prostate_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-
-.prostate-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.prostate-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.prostate_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.prostate_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading3_txt12 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading3_txt12 h1::after {
-    content: '';
-    width: 180px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -13.3%;
-}
-
-/* End */
-
-/* ///////////////////////// New Type Boxes 13 Skin cap And Cream //////////////////////// */
-
-.skincap_container {
-    min-height: 100vh;
-}
-
-.skincap_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.side_leaf_img {
-    margin: -72px;
-}
-
-.side_leaf_img img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-}
-
-.skincap-col {
-    width: 100%;
-    height: 1300px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.skincap_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.skincap-col2 {
+.moringa-col2 {
     /* width: 65%; */
     padding: 30px;
     margin-left: 17%;
@@ -2261,32 +2513,27 @@
     transition: all 0.5s ease;
 }
 
-.skincap_img1 img {
+.moringa_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.skincap_img2 img {
+.moringa_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.skincap_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.skincap-col2 h4 {
+.moringa-col2 h4 {
     font-size: 20px;
     margin-left: 11%;
 }
 
-.skincap-col2 p {
+.moringa-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.skincap_btn button {
+.moringa_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -2296,12 +2543,12 @@
     cursor: pointer;
 }
 
-.skincap_btn button:hover {
+.moringa_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading1_txt13 h1 {
+.moringa_txt h1 {
     /* font-size: 20px; */
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
@@ -2309,189 +2556,36 @@
     color: var(--color-green);
 }
 
-.heading1_txt13 h1::after {
+.moringa_txt h1::after {
     content: '';
     width: 200px;
     height: 3px;
     background: var(--color-green);
     position: absolute;
     margin-top: 4%;
-    margin-left: -14.5%;
+    margin-left: -15.8%;
 }
 
-/* 2nd box */
+/* 2 */
 
-.skincream_containerBox3 {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.skincream-box-col1 {
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-
-.skincream2_img1 img {
-    height: 200px;
-    margin-left: 20%;
-    margin-top: 15%;
-}
-
-.skincream2_img2 img {
-    height: 200px;
-    margin-left: 18%;
-    margin-top: 12%;
-}
-
-.skincream2_img3 img {
-    height: 200px;
-    margin-left: 15%;
-    margin-top: 4%;
-}
-.skincream2_img4 img {
-    height: 200px;
-    margin-left: 15%;
-    margin-top: 4%;
-}
-.skincream2_img5 img {
-    height: 200px;
-    margin-left: 15%;
-    margin-top: 4%;
-}
-
-.skincream-box-col1 h4 {
-    font-size: 20px;
-    margin-left: 17%;
-}
-
-.skincream-box-col2 h4 {
-    font-size: 20px;
-    margin-left: 20%;
-}
-
-.skincream-box-col3 h4 {
-    font-size: 20px;
-    text-align: center;
-}
-
-.skincream-box-col4 h4 {
-    font-size: 20px;
-    text-align: center;
-}
-
-.skincream-box-col5 h4 {
-    font-size: 20px;
-    text-align: center;
-}
-
-
-.skincream-box-col1 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.skincream-box-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.skincream-box-col3 p {
-    font-size: 16px;
-    text-align: center;
-}
-.skincream-box-col4 p {
-    font-size: 16px;
-    text-align: center;
-}
-.skincream-box-col5 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.skincream_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.skincream_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading2_txt13 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading2_txt13 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -14.5%;
-}
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 14 Stress Management //////////////////////// */
-
-.stress_container2 {
-    /* margin-top: -6%; */
-    min-height: 100vh;
-}
-
-.stress_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-/* .side_leaf_img2 {
-    align-items: flex-end;
-    text-align: end;
-}
-.side_leaf_img2 img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-} */
-
-.stress-col {
+.giloy-col {
     width: 100%;
     height: 600px;
     padding: 30px;
+    margin-left: 3%;
     background-color: var(--color-ofWhite);
     box-shadow: 0px 0px 0px 0.5px var(--color-black);
     transition: all 0.5s ease;
 }
 
-.stress_containerBox2 {
+.giloy_containerBox2 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     margin: 5%;
     margin-left: 1%;
 }
 
-.stress-col2 {
-    /* width: 65%; */
+.giloy-col2 {
     padding: 30px;
     margin-left: 17%;
     border-radius: 10px;
@@ -2500,37 +2594,27 @@
     transition: all 0.5s ease;
 }
 
-.stress_img1 img {
+.giloy_img1 img {
     height: 200px;
     margin-left: 20%;
 }
 
-.stress_img2 img {
+.giloy_img2 img {
     height: 200px;
     margin-left: 30%;
 }
 
-.stress_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.stress_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.stress-col2 h4 {
+.giloy-col2 h4 {
     font-size: 20px;
     margin-left: 11%;
 }
 
-.stress-col2 p {
+.giloy-col2 p {
     font-size: 16px;
     text-align: center;
 }
 
-.stress_btn button {
+.giloy_btn button {
     margin-left: 16%;
     width: 140px;
     height: 40px;
@@ -2540,20 +2624,19 @@
     cursor: pointer;
 }
 
-.stress_btn button:hover {
+.giloy_btn button:hover {
     background: var(--color-white);
     color: var(--color-black);
 }
 
-.heading_txt14 h1 {
-    /* font-size: 20px; */
+.giloy_txt h1 {
     font-family: 'Cabin', 'SemiBold 600';
     font-weight: bold;
     text-align: center;
     color: var(--color-green);
 }
 
-.heading_txt14 h1::after {
+.giloy_txt h1::after {
     content: '';
     width: 200px;
     height: 3px;
@@ -2564,642 +2647,6 @@
 }
 
 /* End */
-
-
-/* ///////////////////////// New Type Boxes 15 Sugar Management //////////////////////// */
-
-.suger_container {
-    min-height: 100vh;
-}
-
-.suger_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.side_leaf_img {
-    margin: -72px;
-}
-
-.side_leaf_img img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-}
-
-.suger-col {
-    width: 100%;
-    height: 1100px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.suger_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.suger-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.suger_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.suger_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.suger_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.suger_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.suger-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.suger-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.suger_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.suger_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt15 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt15 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -14.5%;
-}
-
-/* 2nd box */
-
-.suger_containerBox3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.suger-box-col1 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 45%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.suger-box-col2 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 43%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.suger-box-col3 {
-    width: 50%;
-    padding: 30px;
-    margin-left: 30%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-
-.suger2_img1 img {
-    height: 200px;
-    margin-left: 20%;
-    margin-top: 15%;
-}
-
-.suger2_img2 img {
-    height: 200px;
-    margin-left: 18%;
-    margin-top: 12%;
-}
-
-.suger2_img3 img {
-    height: 200px;
-    margin-left: 15%;
-    margin-top: 4%;
-}
-
-.suger-box-col1 h4 {
-    font-size: 20px;
-    margin-left: 17%;
-}
-
-.suger-box-col2 h4 {
-    font-size: 20px;
-    margin-left: 20%;
-}
-
-.suger-box-col3 h4 {
-    font-size: 20px;
-    /* margin-left: 24%; */
-    text-align: center;
-}
-
-
-.suger-box-col1 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.suger-box-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.suger-box-col3 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.suger_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.suger_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 16 Stress Management //////////////////////// */
-
-.weight_container2 {
-    /* margin-top: -6%; */
-    min-height: 100vh;
-}
-
-.weight_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.weight-col {
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.weight_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.weight-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.weight_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.weight_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.weight_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.weight_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.weight-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.weight-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.weight_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.weight_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt16 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt16 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -15.8%;
-}
-
-/* End */
-
-
-/* ///////////////////////// New Type Boxes 16 Stress Management //////////////////////// */
-
-.fibroid_container2 {
-    /* margin-top: -6%; */
-    min-height: 100vh;
-}
-
-.fibroid_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.fibroid-col {
-    width: 100%;
-    height: 600px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.fibroid_containerBox2 {
-    display: grid;
-    grid-template-columns: auto ;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.fibroid-col2 {
-    width: 40%;
-    height: 100%;
-    padding: 30px;
-    margin-left: 31%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.fibroid_img1 img {
-    height: 200px;
-    margin-left: 38%;
-}
-
-
-.fibroid-col2 h4 {
-    font-size: 20px;
-    margin-left: 35%;
-}
-
-.fibroid-col2 p {
-    font-size: 16px;
-    text-align: center;
-    margin-left: 10%;
-}
-
-.fibroid_btn button {
-    margin-left: 38%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.fibroid_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt17 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt17 h1::after {
-    content: '';
-    width: 300px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -25.8%;
-}
-
-/* End */
-
-/* ///////////////////////// New Type Boxes 18 Woman Health //////////////////////// */
-
-.woman_container {
-    min-height: 100vh;
-}
-
-.woman_containerBox {
-    display: grid;
-    grid-template-columns: auto;
-    margin: 5%;
-}
-
-.side_leaf_img {
-    margin: -72px;
-}
-
-.side_leaf_img img {
-    height: 250px;
-    margin-top: -5%;
-    margin-left: -7%;
-}
-
-.woman-col {
-    width: 100%;
-    height: 1100px;
-    padding: 30px;
-    background-color: var(--color-ofWhite);
-    box-shadow: 0px 0px 0px 0.5px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.woman_containerBox2 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.woman-col2 {
-    /* width: 65%; */
-    padding: 30px;
-    margin-left: 17%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.woman_img1 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.woman_img2 img {
-    height: 200px;
-    margin-left: 30%;
-}
-
-.woman_img3 img {
-    height: 200px;
-    margin-left: 18%;
-}
-
-.woman_img4 img {
-    height: 200px;
-    margin-left: 20%;
-}
-
-.woman-col2 h4 {
-    font-size: 20px;
-    margin-left: 11%;
-}
-
-.woman-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.woman_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.woman_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-.heading_txt15 h1 {
-    /* font-size: 20px; */
-    font-family: 'Cabin', 'SemiBold 600';
-    font-weight: bold;
-    text-align: center;
-    color: var(--color-green);
-}
-
-.heading_txt15 h1::after {
-    content: '';
-    width: 200px;
-    height: 3px;
-    background: var(--color-green);
-    position: absolute;
-    margin-top: 4%;
-    margin-left: -14.5%;
-}
-
-/* 2nd box */
-
-.woman_containerBox3 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 5%;
-    margin-left: 1%;
-}
-
-.woman-box-col1 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 45%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.woman-box-col2 {
-    width: 75%;
-    padding: 30px;
-    margin-left: 43%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-.woman-box-col3 {
-    width: 50%;
-    padding: 30px;
-    margin-left: 30%;
-    border-radius: 10px;
-    background-color: #FFF;
-    box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
-    transition: all 0.5s ease;
-}
-
-
-.woman2_img1 img {
-    height: 200px;
-    margin-left: 20%;
-    margin-top: 15%;
-}
-
-.woman2_img2 img {
-    height: 200px;
-    margin-left: 18%;
-    margin-top: 12%;
-}
-
-.woman2_img3 img {
-    height: 200px;
-    margin-left: 15%;
-    margin-top: 4%;
-}
-
-.woman-box-col1 h4 {
-    font-size: 20px;
-    margin-left: 17%;
-}
-
-.woman-box-col2 h4 {
-    font-size: 20px;
-    margin-left: 20%;
-}
-
-.woman-box-col3 h4 {
-    font-size: 20px;
-    /* margin-left: 24%; */
-    text-align: center;
-}
-
-
-.woman-box-col1 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.woman-box-col2 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.woman-box-col3 p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.woman_btn button {
-    margin-left: 16%;
-    width: 140px;
-    height: 40px;
-    background: var(--color-green);
-    color: var(--color-white);
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.woman_btn button:hover {
-    background: var(--color-white);
-    color: var(--color-black);
-}
-
-/* End */
-
 
 /* Footer Css */
 
