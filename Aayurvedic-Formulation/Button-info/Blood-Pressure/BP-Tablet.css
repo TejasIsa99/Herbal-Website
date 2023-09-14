@@ -159,8 +159,8 @@
 }
 
 .img-showcase img {
-    min-width: 50%;
-    margin-left: 28%;
+    min-width: 40%;
+    margin-left: 32%;
 }
 
 .img-select {
@@ -437,6 +437,7 @@ td {
 
 .table_container td {
     font-size: 16px;
+    background-color: var(--color-ofWhite);
 }
 
 table {
