@@ -159,8 +159,8 @@
 }
 
 .img-showcase img {
-    min-width: 40%;
-    margin-left: 32%;
+    min-width: 30%;
+    margin-left: 35%;
 }
 
 .img-select {
@@ -392,7 +392,7 @@
 }
 
 .C_B_container h1 {
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .paragraph {
@@ -437,13 +437,15 @@ td {
 
 .table_container td {
     font-size: 16px;
+    text-align: start;
+    padding: 1%;
     background-color: var(--color-ofWhite);
 }
 
 table {
-    width: 60%;
+    width: 40%;
     height: 20%;
-    margin-left: 14%;
+    margin-left: 24%;
     text-align: center;
 }
 

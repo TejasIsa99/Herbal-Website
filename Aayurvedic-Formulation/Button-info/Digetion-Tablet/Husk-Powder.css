@@ -376,7 +376,7 @@
 /* Table Infomation CSS */
 
 .C_B_info {
-    min-height: 100vh;
+    min-height: 70vh;
     margin-top: 3%;
     background: var(--color-white);
 }

@@ -159,8 +159,8 @@
 }
 
 .img-showcase img {
-    min-width: 40%;
-    margin-left: 32%;
+    min-width: 30%;
+    margin-left: 34%;
 }
 
 .img-select {
@@ -307,7 +307,7 @@
 }
 
 .purchase-info .btn:first-of-type {
-    background: #256eff;
+    background: #2B4E32;
 }
 
 .purchase-info .btn:last-of-type {
@@ -350,6 +350,7 @@
         grid-template-columns: repeat(2, 1fr);
         margin-top: 12%;
         grid-gap: 1.5rem;
+        border: 2px solid rgba(0,0,0,.125);
     }
 
     .card-wrapper {
@@ -376,7 +377,7 @@
 /* Table Infomation CSS */
 
 .C_B_info {
-    min-height: 60vh;
+    min-height: 100vh;
     margin-top: 3%;
     background: var(--color-white);
 }
@@ -392,7 +393,7 @@
 }
 
 .C_B_container h1 {
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .paragraph {
@@ -437,13 +438,15 @@ td {
 
 .table_container td {
     font-size: 16px;
+    text-align: center;
+    padding: 1%;
     background-color: var(--color-ofWhite);
 }
 
 table {
-    width: 60%;
+    width: 40%;
     height: 20%;
-    margin-left: 14%;
+    margin-left: 24%;
     text-align: center;
 }
 
