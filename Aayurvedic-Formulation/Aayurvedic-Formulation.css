@@ -1274,7 +1274,7 @@
 
 .emmunity_containerBox2 {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
     margin: 5%;
     margin-left: 1%;
 }
@@ -1291,27 +1291,38 @@
 
 .emmunity_img1 img {
     height: 200px;
-    margin-left: 20%;
+    margin-left: 6%;
+    margin-top: 12%;
 }
 
 .emmunity_img2 img {
     height: 200px;
-    margin-left: 30%;
+    margin-left: 10%;
+    margin-top: -4%;
 }
 
 .emmunity_img3 img {
     height: 200px;
-    margin-left: 18%;
+    margin-left: 8%;
+    margin-top: 13%;
 }
 
 .emmunity_img4 img {
     height: 200px;
     margin-left: 20%;
+    margin-top: 12%;
+}
+
+.emmunity_img5 img {
+    height: 180px;
+    margin-left: 0%;
+    margin-top: 25%;
 }
 
 .emmunity-col2 h4 {
     font-size: 20px;
-    margin-left: 11%;
+    margin-left: 8%;
+    text-align: center;
 }
 
 .emmunity-col2 p {
@@ -1320,7 +1331,7 @@
 }
 
 .emmunity_btn button {
-    margin-left: 16%;
+    margin-left: 0%;
     width: 140px;
     height: 40px;
     background: var(--color-green);
@@ -1385,6 +1396,7 @@
 }
 
 .joint-col2 {
+    height: 96%;
     padding: 30px;
     margin-left: 17%;
     border-radius: 10px;
@@ -1395,27 +1407,38 @@
 
 .joint_img1 img {
     height: 200px;
-    margin-left: 20%;
+    margin-left: 14%;
+    margin-top: -4%;
 }
 
 .joint_img2 img {
     height: 200px;
     margin-left: 30%;
+    margin-top: 14%;
 }
 
 .joint_img3 img {
     height: 200px;
-    margin-left: 18%;
+    margin-left: 27%;
+    margin-top: 14%;
 }
 
 .joint_img4 img {
     height: 200px;
-    margin-left: 20%;
+    margin-left: 10%;
+    /* margin-top: 14%; */
+}
+
+.joint_img5 img {
+    height: 200px;
+    margin-left: 7%;
+    margin-top: 14%;
 }
 
 .joint-col2 h4 {
     font-size: 20px;
-    margin-left: 11%;
+    margin-left: 3%;
+    text-align: center;
 }
 
 .joint-col2 p {
@@ -1424,7 +1447,7 @@
 }
 
 .joint_btn button {
-    margin-left: 16%;
+    margin-left: 0%;
     width: 140px;
     height: 40px;
     background: var(--color-green);
@@ -1474,7 +1497,7 @@
 
 .kidney-col {
     width: 100%;
-    height: 600px;
+    height: 550px;
     padding: 30px;
     margin-left: -3%;
     background-color: var(--color-ofWhite);
@@ -1556,7 +1579,7 @@
 
 .liver-col {
     width: 100%;
-    height: 600px;
+    height: 550px;
     padding: 30px;
     margin-left: 3%;
     background-color: var(--color-ofWhite);
@@ -1680,7 +1703,7 @@
 .memory-col2 {
     /* width: 65%; */
     padding: 30px;
-    margin-left: 17%;
+    margin-left: 12%;
     border-radius: 10px;
     background-color: #FFF;
     box-shadow: 0.1px 0.1px 1px 0.1px var(--color-black);
@@ -1694,22 +1717,25 @@
 
 .memory_img2 img {
     height: 200px;
-    margin-left: 30%;
+    margin-left: 20%;
+    margin-top: 12%;
 }
 
 .memory_img3 img {
     height: 200px;
     margin-left: 18%;
+    margin-top: 12%;
 }
 
 .memory_img4 img {
     height: 200px;
     margin-left: 20%;
+    margin-top: 16%;
 }
 
 .memory-col2 h4 {
     font-size: 20px;
-    margin-left: 11%;
+    margin-left: 7%;
 }
 
 .memory-col2 p {
